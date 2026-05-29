@@ -1,0 +1,16 @@
+{
+  "name": "rundrill-pmp-prep",
+  "version": "0.1.1",
+  "description": "PMP exam-prep coach \u2014 drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "mcpServers": {
+    "rundrill-pmp-prep": {
+      "serverURL": "https://mcp.rundrill.com/skills/pmp"
+    }
+  }
+}
