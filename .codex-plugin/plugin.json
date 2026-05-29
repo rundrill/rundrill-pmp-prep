@@ -1,0 +1,33 @@
+{
+  "name": "rundrill-pmp-prep",
+  "version": "0.1.0",
+  "description": "PMP certification coach for the 2026 exam — drill the situational \"what should the PM do FIRST?\" judgment the exam really tests, review an AI's project decisions for the planted PMI-mindset trap, run the EVM/PERT/critical-path math, and sit timed domain-weighted mock exams, with progress and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "repository": "https://github.com/rundrill/rundrill-pmp-prep",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": ["rundrill", "course", "coach", "drills", "pmp", "pmi", "project-management", "pmbok", "agile", "scrum", "earned-value", "exam-prep", "certification"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "RunDrill PMP",
+    "shortDescription": "PMP coach: drill situational judgment, review an AI's PM call for the planted trap, run the EVM/PERT math, sit timed mock exams.",
+    "longDescription": "An interactive PMP coach for PMI's 2026 exam — Foundations (the language, the approaches, and how the exam thinks) → People (33%) → Process (41%) → Business Environment (26%). The exam doesn't reward recall; it hands you a scenario and asks what the project manager should do FIRST, and the PMI-preferred answer is rarely the forceful one. So you drill situational judgment against the PMI mindset (servant leadership, be proactive, address the root cause, collaborate before you escalate), the calculation items (earned value CV/SV/CPI/SPI and the three EACs, PERT, the critical path, expected monetary value, communication channels, the FPIF point of total assumption), classification and approach-selection (predictive vs agile vs hybrid, and the one factor that decides it), and you build the real artifacts (RACI, scope statement, WBS, risk register, change request) in chat. Signature drill: review a confident, clean-looking project decision an AI drafted and find the planted trap — it jumps to authority, escalates too early, taps the wrong reserve, or calls gold plating a legitimate change. Plus timed, domain-weighted mock exams as a boss battle. Backed by the RunDrill MCP engine with progress tracking and mistake memory.",
+    "developerName": "RunDrill",
+    "category": "Education",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://rundrill.com",
+    "defaultPrompt": [
+      "Start a PMP drill session.",
+      "Give me a situational question and let me pick what the PM should do first.",
+      "Show me a project decision and let me find what's wrong with it."
+    ],
+    "brandColor": "#2E6E9E",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

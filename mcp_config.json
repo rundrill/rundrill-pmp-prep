@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "rundrill-pmp-prep": {
+      "serverUrl": "https://mcp.rundrill.com/skills/pmp"
+    }
+  }
+}
