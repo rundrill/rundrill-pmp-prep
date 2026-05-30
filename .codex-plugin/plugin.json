@@ -1,6 +1,6 @@
 {
   "name": "rundrill-pmp-prep",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "PMP certification coach for the 2026 exam — drill the situational \"what should the PM do FIRST?\" judgment the exam really tests, review an AI's project decisions for the planted PMI-mindset trap, run the EVM/PERT/critical-path math, and sit timed domain-weighted mock exams, with progress and mistake memory, inside your AI agent.",
   "author": {
     "name": "RunDrill",

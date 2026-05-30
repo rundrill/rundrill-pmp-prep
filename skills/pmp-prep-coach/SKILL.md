@@ -65,7 +65,7 @@ instructs this; honour it.
   "weak" to the user as "to revisit".
 - `track` — always `core` for PMP (one exam, no specialization). You can ignore the track gate.
 - `banner` — a pre-rendered dashboard (commit grid + per-domain progress bars + counters). Print it
-  verbatim inside a fenced code block — no language tag, so it renders in monospace; don't reformat it.
+  verbatim inside a ```` ```bash ```` fenced code block (renders in monospace); don't reformat it.
 - `misconceptions` — open mistakes and the most common named ones.
 - `profile` — `domains`/`interests`/`persona` (anchor scenarios in the learner's industry);
   `native_language` (see **Language**); `habit_anchor` (a daily-routine cue). Shared across courses.
@@ -75,7 +75,7 @@ instructs this; honour it.
 
 If invoked with no argument, run `status`, then continue into the next right subcommand.
 
-**status** — call `status`. **Print `banner` verbatim inside one fenced code block — no language tag, so it renders in monospace** (the motivator:
+**status** — call `status`. **Print `banner` verbatim inside one ```` ```bash ```` fenced code block (renders in monospace)** (the motivator:
 a commit grid + per-domain bars; never re-align or swap its glyphs). Below it, in plain words: the
 domain + `milestone` (e.g. "9 of 27 People topics solid"), the streak (and, if
 `engagement.days_since_last_drill ≥ 2`, one neutral "last drill: N days ago" line — no guilt), and the
